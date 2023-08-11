@@ -59,3 +59,12 @@ Type conversion
 
 greeting := "Hi There"
 fmt.println([]byte(greeting))
+
+
+STRUCTS
+
+type ==> zero-value
+string ==> ""
+int ==> 0
+float ==> 0
+bool ==> false
