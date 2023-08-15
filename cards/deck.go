@@ -69,10 +69,7 @@ func (d deck) shuffle() deck{
 		rand.Shuffle(len(d), func (i int, j int){
 			d[i], d[j] = d[j], d[i]
 		})
-
-
+		
 		return d 
-
-
 
 }
