@@ -371,7 +371,7 @@ string(var_name)
 Converting string to different types and vice-sa versa
 
 
-	b, err := strconv.ParseBool("true")
+	b, err := strconv.ParseBool("true")aa
 	f, err := strconv.ParseFloat("3.1415", 64)
 	i, err := strconv.ParseInt("-42", 10, 64)
 	u, err := strconv.ParseUint("42", 10, 64)
