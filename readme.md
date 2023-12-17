@@ -196,13 +196,14 @@ str := "Hello, Go!"
 runes := []rune(str)                // Convert string to a slice of runes
 runes[7] = '!'
 modifiedStr := string(runes)
-}
+
 
 
 
 /home/10683796/exercism
 
-type-conversion
+TYPE CONVERSION
+
 
 int(var_name)
 float64(var_name)
